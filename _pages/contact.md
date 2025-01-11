@@ -1,7 +1,7 @@
 ---
 layout: archive
-title: "AutoAOI"
-permalink: /autoaoi/
+title: "Contact"
+permalink: /contact/
 author_profile: true
 redirect_from:
   - /resume
