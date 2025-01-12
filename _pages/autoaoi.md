@@ -11,7 +11,7 @@ redirect_from:
 
 <details>
 <summary>
-关于AOI是什么？
+关于AOI  [点击展开]
 </summary>
 
 # 什么是机器视觉  
@@ -20,7 +20,7 @@ redirect_from:
 机器视觉作为现代工业与技术的核心驱动力，在提升生产效率保障作业安全、推动智能制造及产业升级方面展现出了非凡的重要性和无限潜力。  
 
 
-![典型计算机视觉系统架构](images/autoaoi/typical_aoi_system.png)  
+![典型计算机视觉系统架构](https://ray3572.github.io/images/autoaoi/typical_aoi_system.png)  
 
 # 什么是AOI  
 自动光学检查（英语：Automated Optical Inspection，简称AOI），为高速高精度光学影像检测系统，运用机器视觉做为检测标准技术，
@@ -33,28 +33,22 @@ redirect_from:
 
 </details>
 
-  
-Skills
+# AutoAOI简介
+AutoAOI主要服务于AOI机器视觉系统交付过程。  
+如图所示，AOI产品交付往往包括以下几个步骤：  
+![AOI部署流程](https://ray3572.github.io/images/autoaoi/AOI_deployment.png)  
 
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
   
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+
+
+
+
+
+
+
+
+
+
+
+
