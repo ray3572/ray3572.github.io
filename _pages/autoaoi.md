@@ -19,8 +19,9 @@ redirect_from:
 机器视觉作为智能机器视觉能够在多种场景下替代人眼实现多种功能，主要包括识别、测量、定位和检测。
 机器视觉作为现代工业与技术的核心驱动力，在提升生产效率保障作业安全、推动智能制造及产业升级方面展现出了非凡的重要性和无限潜力。  
 
-
-![典型计算机视觉系统架构](https://ray3572.github.io/images/autoaoi/typical_aoi_system.png)  
+<center>
+  <img src="https://ray3572.github.io/images/autoaoi/typical_aoi_system.png">
+</center>
 
 # 什么是AOI  
 自动光学检查（英语：Automated Optical Inspection，简称AOI），为高速高精度光学影像检测系统，运用机器视觉做为检测标准技术，
@@ -35,9 +36,13 @@ redirect_from:
 
 # AutoAOI简介
 AutoAOI主要服务于AOI机器视觉系统交付过程。  
-如图所示，AOI产品交付往往包括以下几个步骤：  
-![AOI部署流程](https://ray3572.github.io/images/autoaoi/AOI_deployment.png)  
+如图所示，AOI产品交付往往包括以下几个步骤：
 
+<center>
+  <img src="\images\/autoaoi\/AOI_deployment.png">
+</center>
+其中，光学方案设计是检测算法适配的上游。良好的光学方案能够有效降低算法研发的难度、提升算法精度，从而节约开发时间。
+光学方案的设计效率对缩短产品交付周期、降低交付成本、提升利润起着关键作用。
 
   
 
