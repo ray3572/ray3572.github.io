@@ -8,10 +8,10 @@ redirect_from:
 ---
 
 {% include base_path %}
-
+# 关于AOI  
 <details>
 <summary>
-关于AOI  [点击展开]
+[点击展开]
 </summary>
 
 # 什么是机器视觉  
@@ -30,23 +30,70 @@ redirect_from:
 因为是非接触式检查，所以可在中间工程检查半成品。高精度光学影像检测系统，包含量测镜头技术、光学照明技术、定位量测技术、电子电路测试技术、
 影像处理技术及自动化技术应用等领域，其开发应用不但符合高科技产业发展需求，其技术层面更可扩展至国防军事工业，举凡兵工武器制造、夜视作战系统、
 战略地形形貌之分析与研判等，都与此影像技术息息相关。  
-【from wikipedia】
+
+——from wikipedia
 
 </details>
 
 # AutoAOI简介
-AutoAOI主要服务于AOI机器视觉系统交付过程。  
-如图所示，AOI产品交付往往包括以下几个步骤：
+## AutoAOI服务于AOI机器视觉系统交付过程，致力于交付成本优化。
+<details>
+<summary>
+[点击展开]
+</summary>
 
+### 如图所示，AOI产品交付往往包括以下几个步骤：
 <center>
   <img src="\images\/autoaoi\/AOI_deployment.png">
+</center>  
+
+### 其中，光学方案设计是检测算法适配的上游。良好的光学方案能够有效降低算法研发的难度、提升算法精度，从而节约开发时间。光学方案的设计效率对缩短产品交付周期、降低交付成本、提升利润起着关键作用。光学方案可调参数较多，包括光源分布、光源入射角度、光照强度、光源色温等。在AOI设备的交付过程中，光学方案设计往往消耗大量人工，带来巨大的成本。
+<center>
+  <img src="\images\/autoaoi\/light_params.png">
+</center>  
+
+### 光学方案设计阶段的自动化允许更少的人工参与，同时因为数据采集与初步算法验证并行，单次设计验证的时间周期也大大缩短。不仅仅是人力成本的优化，还包括差旅、配套人员成本的降低、客户满意度的提升
+
+<center>
+  <img src="\images\/autoaoi\/decrease_deployment_cost.png">
 </center>
-其中，光学方案设计是检测算法适配的上游。良好的光学方案能够有效降低算法研发的难度、提升算法精度，从而节约开发时间。
-光学方案的设计效率对缩短产品交付周期、降低交付成本、提升利润起着关键作用。
 
-  
+</details>
+
+## AutoAOI设计思路：借助 光学方案-检测算法 一体化，降低光学方案设计成本  
+<details>
+<summary>
+[点击展开]
+</summary>
+
+<center>
+  <img src="\images\/autoaoi\/machine_human.png">
+</center>  
+<center>
+  <img src="\images\/autoaoi\/autiaoi_vs_human.png">
+</center>  
+
+### 采用机器主观量化的方法而非人类主观量化的原因主要在于提高检测的一致性、效率和可重复性。人类主观评估受到个体差异等因素的影响，导致结果不稳定和难以量化。相比之下，机器主观量化方法通过自动化的图像处理和客观的算法来评估图像质量，能够提供更精确和可重复的测量结果。此外，机器量化方法可以快速处理大量数据，适合于大规模生产环境中的实时检测需求。
+
+<center>
+  <img src="\images\/autoaoi\/overview.png">
+</center>  
+
+</details>
+
+## 效果展示
+### 硬件设置如图所示
+<center>
+  <img src="\images\/autoaoi\/devices.png">
+</center> 
+
+### 晶圆缺陷打光过程
+<center>
+  <img src="\images\/autoaoi\/bilibili.png">
+</center>  
 
 
+[播放链接](https://www.bilibili.com/video/BV1t4rPYKEBJ/)
 
 
 
