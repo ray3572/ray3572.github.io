@@ -8,11 +8,12 @@ redirect_from:
 ---
 
 {% include base_path %}
-# V0.5版本技术方案预计2025年一季度以论文形式公开
-# 特别致谢本项目的合作伙伴及赞助 [@邹宁睦教授](https://zouningmu.github.io/)
-# [项目合作 or 技术交流 or 交个朋友](https://ray3572.github.io/contact/)
-# ===========================
-# 关于AOI  
+# .
+## V0.5版本技术方案预计2025年一季度以论文形式公开
+## 特别致谢本项目的合作伙伴及赞助 [@邹宁睦教授](https://zouningmu.github.io/)
+## [项目合作 or 技术交流 or 交个朋友](https://ray3572.github.io/contact/)
+## ===========================
+## 关于AOI  
 <details>
 <summary>
 [点击展开]
@@ -41,8 +42,8 @@ redirect_from:
 
 
 
-# AutoAOI简介
-## AutoAOI服务于AOI机器视觉系统交付过程，致力于交付成本优化。
+## AutoAOI简介
+### AutoAOI服务于AOI机器视觉系统交付过程，致力于交付成本优化。
 <details>
 <summary>
 [点击展开]
@@ -62,13 +63,13 @@ redirect_from:
 
 </details>
 
-### 打光打得好，下班下得早
+#### 打光打得好，下班下得早
 <center>
   <img src="\images\/autoaoi\/decrease_deployment_cost.png">
 </center>
 
 
-## AutoAOI设计思路：借助 光学方案-检测算法 一体化，降低光学方案设计成本 
+### AutoAOI设计思路：借助 光学方案-检测算法 一体化，降低光学方案设计成本 
 <details>
 <summary>
 [点击展开]
@@ -77,37 +78,37 @@ redirect_from:
 采用机器主观量化的方法而非人类主观量化的原因主要在于提高检测的一致性、效率和可重复性。人类主观评估受到个体差异等因素的影响，导致结果不稳定和难以量化。相比之下，机器主观量化方法通过自动化的图像处理和客观的算法来评估图像质量，能够提供更精确和可重复的测量结果。此外，机器量化方法可以快速处理大量数据，适合于大规模生产环境中的实时检测需求。
 </details>
 
-### 要让机器识别的准，就要用机器能理解的逻辑选择光学方案
+#### 要让机器识别的准，就要用机器能理解的逻辑选择光学方案
 <center>
   <img src="\images\/autoaoi\/machine_human.png">
 </center> 
 
-### AutoAOI比人工更快更准更稳定
+#### AutoAOI比人工更快更准更稳定
 <center>
   <img src="\images\/autoaoi\/autiaoi_vs_human.png">
 </center>
 
-### 整体方案示意图
+#### 整体方案示意图
 <center>
   <img src="\images\/autoaoi\/overview.png">
 </center>
 
 
 
-## 效果展示
-### AutoAOI硬件配置
+### 效果展示
+#### AutoAOI硬件配置
 <center>
   <img src="\images\/autoaoi\/devices.png">
 </center> 
 
-### 晶圆缺陷打光过程
+#### 晶圆缺陷打光过程
 <center>
   <img src="\images\/autoaoi\/bilibili.png">
 </center>  
 
 [播放链接](https://www.bilibili.com/video/BV1t4rPYKEBJ/)
 
-### 最新版本性能更加优秀   
+#### 最新版本性能更加优秀   
 <center>
   <img src="\images\/autoaoi\/version_comparison.png">
 </center> 
