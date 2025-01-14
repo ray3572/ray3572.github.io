@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "AutoAOI"
+title: "AutoAOI-AOI部署自动化，更快更准更稳定"
 permalink: /autoaoi/
 author_profile: true
 redirect_from:
@@ -10,8 +10,8 @@ redirect_from:
 {% include base_path %}
 # V0.5版本技术方案预计2025年一季度以论文形式公开
 # 特别致谢本项目的合作伙伴及赞助 [@邹宁睦教授](https://zouningmu.github.io/)
-# [项目合作 & 技术交流 & 交个朋友](https://ray3572.github.io/contact/)
-# 
+# [项目合作 or 技术交流 or 交个朋友](https://ray3572.github.io/contact/)
+# ===========================
 # 关于AOI  
 <details>
 <summary>
