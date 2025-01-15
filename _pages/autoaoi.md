@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 # .
 ## V0.5版本技术方案预计2025年一季度以论文形式公开
-## 特别致谢本项目的合作伙伴及赞助 [@邹宁睦教授](https://zouningmu.github.io/)
+## 特别致谢本项目的合作伙伴及赞助 [@南京大学集成电路学院 邹宁睦教授](https://zouningmu.github.io/)
 ## [项目合作 or 技术交流 or 交个朋友](https://ray3572.github.io/contact/)
 ## ===========================
 ## 关于AOI  
