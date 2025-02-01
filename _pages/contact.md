@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Contact"
+title: "联系方式"
 permalink: /contact/
 author_profile: true
 redirect_from:
@@ -8,10 +8,11 @@ redirect_from:
 ---
 
 {% include base_path %}
+#
 # 邮箱
 ## tianwulei@smail.nju.edu.cn
 
-# 扫描二维码添加微信
+# 或者扫描二维码添加微信
 <center>
   <img src="https://ray3572.github.io/images/9d2c23a43966040a5691ab3e135d752.jpg">
 </center>
