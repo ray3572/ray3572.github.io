@@ -5,19 +5,22 @@
 # prevent it from being included in the site.
 
 main:
-  - title: "AutoAOI"
-    url: /autoaoi/
+  - title: "主页"
+    url: /about/
 
-  - title: "CV"
+  - title: "2024新鲜出炉"
+    url: /news2024/
+
+  - title: "个人履历"
     url: /cv/
 
-  - title: "Award"
+  - title: "获奖"
     url: /award/
 
-  - title: "Publications"
+  - title: "发表"
     url: /publications/
 
-  - title: "Contact"
+  - title: "联系我"
     url: /contact/
 
 #  - title: "Talks"
