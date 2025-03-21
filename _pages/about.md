@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "欢迎来到 雷天悟 的主页"
+title: "欢迎来到 雷天悟（鸣谦） 的主页"
 author_profile: true
 redirect_from: 
   - /about/
