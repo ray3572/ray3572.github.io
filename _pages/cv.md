@@ -135,7 +135,7 @@ redirect_from:
 
 发表
 ======
-* [1] Lei T, Chen S, Wang B, et al. Adapted-MoE: Mixture of Experts with Test-Time Adaption for Anomaly Detection [PDF](https://arxiv.org/pdf/2409.05611)
+* [1] Lei T, Chen S, Wang B, et al. Adapted-MoE: Mixture of Experts with Test-Time Adaption for Anomaly Detection(ICIC2025 Oral) [PDF](https://arxiv.org/pdf/2409.05611)
 * [2] 雷天悟.一种基于灰度直方图平滑的先验表计表盘固定阈值二值化方法:202111399998[P]
 * [3] 雷天悟.一种基于近似极心的指针表计表盘展开方法:CN202111389042.5[P].CN202111389042.5
 * [4] 雷天悟.一种基于模板滤波的指针定位方法:202111180506[P]
