@@ -20,7 +20,7 @@ redirect_from:
 </center>
 
 
-## 2.Adapted-MoE: Mixture of Experts with Test-Time Adaption for Anomaly Detection 
+## 2.Adapted-MoE: Mixture of Experts with Test-Time Adaption for Anomaly Detection (ICIC2025 Oral)
 ### [Arxiv](https://arxiv.org/pdf/2409.05611) || [项目主页](https://ray3572.github.io/AdaptedMoE_web)
 还在为AOI交付时，线上产品与采集的训练数据不一致而烦恼吗？考虑一下我们的方案
 <center>
