@@ -19,6 +19,78 @@ layout: default
     {% unless page.header.overlay_color or page.header.overlay_image %}
       <h1 class="page__title">{{ page.title }}</h1>
     {% endunless %}
-    {{ content }}
+    {% if page.access_password_hash %}
+      <div class="access-lock" data-access-lock data-password-hash="{{ page.access_password_hash }}">
+        <form class="access-lock__form" data-access-form>
+          <label class="access-lock__label" for="access-password">访问密码</label>
+          <div class="access-lock__row">
+            <input class="access-lock__input" id="access-password" type="password" autocomplete="current-password" required>
+            <button class="access-lock__button" type="submit">进入</button>
+          </div>
+          <p class="access-lock__message" data-access-message aria-live="polite"></p>
+        </form>
+      </div>
+      <div data-access-content hidden>
+        {{ content }}
+      </div>
+      <script>
+        (function () {
+          var lock = document.querySelector("[data-access-lock]");
+          var content = document.querySelector("[data-access-content]");
+          var form = document.querySelector("[data-access-form]");
+          var message = document.querySelector("[data-access-message]");
+          var input = document.getElementById("access-password");
+
+          if (!lock || !content || !form || !input) {
+            return;
+          }
+
+          var expectedHash = lock.getAttribute("data-password-hash");
+          var storageKey = "access:" + window.location.pathname;
+
+          function unlock() {
+            lock.hidden = true;
+            content.hidden = false;
+          }
+
+          function toHex(buffer) {
+            return Array.prototype.map.call(new Uint8Array(buffer), function (byte) {
+              return byte.toString(16).padStart(2, "0");
+            }).join("");
+          }
+
+          if (window.sessionStorage && window.sessionStorage.getItem(storageKey) === "unlocked") {
+            unlock();
+            return;
+          }
+
+          form.addEventListener("submit", function (event) {
+            event.preventDefault();
+
+            if (!window.crypto || !window.crypto.subtle || !window.TextEncoder) {
+              message.textContent = "当前浏览器不支持密码验证，请更换现代浏览器。";
+              return;
+            }
+
+            window.crypto.subtle.digest("SHA-256", new TextEncoder().encode(input.value)).then(function (hashBuffer) {
+              if (toHex(hashBuffer) === expectedHash) {
+                if (window.sessionStorage) {
+                  window.sessionStorage.setItem(storageKey, "unlocked");
+                }
+                unlock();
+              } else {
+                message.textContent = "密码错误，请重试。";
+                input.value = "";
+                input.focus();
+              }
+            }).catch(function () {
+              message.textContent = "验证失败，请重试。";
+            });
+          });
+        }());
+      </script>
+    {% else %}
+      {{ content }}
+    {% endif %}
   </div>
 </div>

@@ -399,3 +399,42 @@
   font-size: $type-size-6;
   text-transform: uppercase;
 }
+
+.access-lock {
+  max-width: 28rem;
+  margin: 1.5rem 0;
+  padding: 1.25rem;
+  border: 1px solid $border-color;
+  border-radius: 4px;
+  background: mix(#fff, $lighter-gray, 70%);
+}
+
+.access-lock__form {
+  margin: 0;
+}
+
+.access-lock__label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.access-lock__row {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.access-lock__input {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.access-lock__button {
+  flex: 0 0 auto;
+}
+
+.access-lock__message {
+  min-height: 1.5em;
+  margin: 0.5rem 0 0;
+  color: $danger-color;
+}

@@ -3,6 +3,7 @@ layout: archive
 title: "个人履历"
 permalink: /cv/
 author_profile: true
+access_password_hash: "4cafa72d2a2ee3ab2c1cfd53307b8c95d1ce854b59484a1597c05ded6261a386"
 redirect_from:
   - /resume
 ---
